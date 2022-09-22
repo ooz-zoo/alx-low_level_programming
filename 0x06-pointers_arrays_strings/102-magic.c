@@ -9,15 +9,15 @@ int main(void)
 	a[2] = 1024;
 	p = &n;
 	/*
-	 * write your line of code....
-	 * Note:
-	 * - you aren't allowed to use a
-	 * - you aren't allowed to modify p
-	 * - only writeone statement
-	 * - you are not allowed to code anything else than the line of expected line of code at the expected line
+	 * write your line of code here...
+	 * Remember:
+	 * - you are not allowed to use a
+	 * - you are not allowed to modify p
+	 * - only one statement
+	 * - you are not allowed to code anything else than this line of code
 	 */
 	*(p + 5) = 98;
-	/* this prints 98\n*/
+	/* ...so that this prints 98\n */
 	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
