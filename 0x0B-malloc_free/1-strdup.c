@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-/*
+/**
  * _strdup - This function copy string to new str created with malloc
  * @str: string
  * Return: Pointer to new string
