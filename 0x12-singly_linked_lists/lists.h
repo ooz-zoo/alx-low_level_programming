@@ -1,10 +1,7 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-#include <stdio.h>
 #include <stdlib.h>
-#include <stddef.h>
-#include <string.h>
 
 /**
  * struct list_s - singly linked list
@@ -28,8 +25,4 @@ list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
 void before_main(void)__attribute__((constructor));
 
-int _putchar(char c);
-int _strlen(char *s);
-
-
-#endif
+#endif /* LISTS_H */
